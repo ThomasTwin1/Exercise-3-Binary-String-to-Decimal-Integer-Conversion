@@ -1,0 +1,13 @@
+#TODO:Binary String to Decimal Integer Conversion
+# Define a variable binary_number with the value "101010".
+# Convert binary_number from binary (base 2) to decimal using int().
+# Print the result to check your conversion.
+
+# Define a variable binary_number with the value "101010".
+binary_number = "101010"
+
+# Convert binary_number from binary (base 2) to decimal using int().
+binary_base2 = int(binary_number, 2)
+
+# Print the result to check your conversion.
+print(binary_base2)# Expected output: 42
